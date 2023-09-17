@@ -76,8 +76,14 @@ namespace IMTC505.starter.SampleGame
 
                         foreach (GamePoint gamePoint in FindObjectsOfType<GamePoint>())
                         {
+                            Debug.Log("Game Object points " + gamePoint.gameObject.tag + ": " + gamePoint.points);
                             gamePoint.OnTriggerEnterAction += OnPointScored;
-                            _maxPoints += gamePoint.points;
+
+                            // Do not add negative points to max points available
+                            if (gamePoint.gameObject.tag != "NegativePoint")
+                                _maxPoints += gamePoint.points;
+
+                            Debug.Log("Max Points: " + _maxPoints);
                         }
                     }
                     break;

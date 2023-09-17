@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RotateAround : MonoBehaviour
+public class RotateinPlace : MonoBehaviour
 {
     public Transform centerObject;
 

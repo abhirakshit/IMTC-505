@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3873207582759049486}
   - component: {fileID: 3589601424069355752}
-  - component: {fileID: -7417224134228852710}
   - component: {fileID: 9196058615086409829}
   - component: {fileID: 2332110186820565726}
   - component: {fileID: 7610367840987464771}
+  - component: {fileID: 1189586990645044327}
   m_Layer: 0
   m_Name: PointsGem
   m_TagString: Untagged
@@ -88,19 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-7417224134228852710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1002183590551269777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d37f23f288b644163a5be4c187b21bd0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  centerObject: {fileID: 0}
 --- !u!114 &9196058615086409829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,3 +136,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 15
+--- !u!114 &1189586990645044327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002183590551269777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64a332ffbbdfe4090ac7a7ff3b9aa4f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  centerObject: {fileID: 0}

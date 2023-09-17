@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * This script maked the object float up and down based on the speed and height values
+ * */
+ 
 public class UpDown : MonoBehaviour
 {
     //adjust this to change speed
